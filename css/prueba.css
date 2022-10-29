@@ -1,0 +1,99 @@
+.Grilla {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-auto-rows: minmax(125px, auto); }
+
+/*Variables*/
+img {
+  width: 100%;
+  height: auto; }
+
+/*Nesting*/
+.navbar-brand {
+  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: x-large;
+  transform: translate(1px, 4px);
+  height: 2.9rem;
+  transition: height 2s; }
+  .navbar-brand:hover {
+    height: 1rem; }
+
+.nav-link {
+  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", sans-serif;
+  transform: translate(150px, 4px); }
+
+.col {
+  text-align: Center;
+  font-family: "Mulish", sans-serif;
+  font-size: 1em; }
+
+.mb-3 {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em; }
+
+.btn {
+  margin-top: 3em; }
+
+.Resumen-Samuel {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: end;
+  text-align: end;
+  grid-column: 1;
+  grid-row: 4;
+  font-family: "Mulish", sans-serif;
+  font-size: 1em; }
+
+.imagenes-de-Banner1 {
+  height: auto;
+  width: auto;
+  grid-column: 2;
+  grid-row: 1; }
+
+.imagenes-de-Banner2 {
+  height: auto;
+  width: auto;
+  grid-column: 2;
+  grid-row: 2; }
+
+.imagenes-de-Banner3 {
+  height: auto;
+  width: auto;
+  grid-column: 2;
+  grid-row: 3; }
+
+.imagenes-de-Banner4 {
+  height: auto;
+  width: auto;
+  grid-column: 2;
+  grid-row: 4; }
+
+.container-text-center {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px; }
+
+.despedida {
+  margin-top: 5rem;
+  margin-right: 2rem;
+  justify-content: center;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-size: 3em; }
+
+.despedida-2 {
+  margin-top: 5rem;
+  margin-right: 2rem;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em; }
+
+.enviar {
+  color: beige;
+  text-decoration: none; }

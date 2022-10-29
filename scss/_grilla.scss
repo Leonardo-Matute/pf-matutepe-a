@@ -1,0 +1,4 @@
+.Grilla {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-auto-rows: minmax(125px, auto); }
